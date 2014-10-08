@@ -16,6 +16,18 @@
     #
 
     #
+    # AWS Access Key for bucket
+    #
+
+    attr_accessor :access_key
+
+    #
+    # AWS Access Secret for bucket
+    #
+
+    attr_accessor :secret_key
+
+    #
     # Recursive upload, download or removal. When used with del it can remove all the files in a bucket.
     #
     attr_accessor :recursive
